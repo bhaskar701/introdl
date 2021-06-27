@@ -1,17 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     font-family: 'Roboto', sans-serif; 
     line-height: 1.5;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     body{
-        font-size:10px;
+        font-size:7px !important;
+    }
+    .intro_to_deep{
+        font-size: smaller !important;
+        width: 10px;
+        font-style: bold !important;
     }
 }
 body{

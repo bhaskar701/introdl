@@ -14,5 +14,9 @@
         font-size:10px;
     }
 }
+body{
+    scroll-behaviour:smooth
+    }
+    
 
 

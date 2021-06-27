@@ -5,19 +5,18 @@
 
 *{
     font-family: 'Roboto', sans-serif; 
+    line-height: 1.5;
 }
-.navbar-brand{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
-    font-family: bold;
-    font-size: 30em;
+
+@media only screen and (min-width: 600px) {
+
+    body{
+        font-size:10px;
+    }
+}
+body{
+    scroll-behaviour:smooth
+    }
     
-}
-.navbar-nav{
-    float: right !important;
-    font-weight: bold;
-}
-.body-main{
-    padding: 60px;
-    padding-left: 25%;
-}
+
+

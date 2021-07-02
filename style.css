@@ -8,12 +8,7 @@
 @media only screen and (max-width: 600px) {
 
     body{
-        font-size:7px !important;
-    }
-    .intro_to_deep{
-        font-size: smaller !important;
-        width: 10px;
-        font-style: bold !important;
+        font-size:10px !important;
     }
 }
 body{
